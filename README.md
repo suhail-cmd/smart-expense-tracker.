@@ -70,3 +70,9 @@ Note: trained model files (`*.pkl`) and generated CSVs are not committed — run
 ## License
 
 MIT
+
+
+PS C:\Users\suhailshaik\OneDrive\Desktop\expense-categorizer> python 00_clean_bank_statement.py sample_bank_statement.csv
+Cleaned 22 transactions -> transactions_cleaned.csv
+
+PS C:\Users\suhailshaik\OneDrive\Desktop\expense-categorizer> python -m streamlit run 03_dashboard.py
